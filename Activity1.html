@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Angular JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body>
+    <h1>Module 6 - Activity#1</h1>
+    <div>       
+        <h3>Hello I am {{nameControl}} <input type="text" ng-model="nameControl"></h3>
+    </div>
+
+    <div>
+        <h4>I am from <input type="text" ng-model="sectionControl"></h4> 
+        </div>
+    </div>
+    <div>
+        <h5>Guess my age from oct 1, 1999 to 2022</h5>
+        <label>Value 1:</label>
+        <input type="number" ng-model="value1Control">
+        <br>
+        <lavel>Value 2:</lavel>
+        <input type="number" ng-model="value2Control">
+        <p>Your answer is: {{value1Control + value2Control}}</p>
+    </div>
+</body>
+</html>
